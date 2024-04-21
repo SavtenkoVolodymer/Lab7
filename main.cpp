@@ -36,6 +36,7 @@ void SingleList (){
     Shtrix();
 
     A.removeAtIndex(1);
+    cout<<A<<endl;
     A.InsertAtIndex(1,5);
     cout<<A;
     Shtrix();
@@ -87,3 +88,9 @@ void DoubleList(){
     cout<<"Size of list: "<<B.getSize()<<endl;
     cout<<B[3]-B[2]<<endl;
 }
+
+int main() {
+    SingleList();
+    DoubleList();
+    return 0;
+};
