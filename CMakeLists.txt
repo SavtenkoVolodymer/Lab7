@@ -7,4 +7,10 @@ add_executable(Lab7 main.cpp
         SinglyLinkedList.h
         DoubleLinkedList.h
         SingleNode.h
-        DoubleNode.h)
+        DoubleNode.h
+        Stack.h
+        Queue.h
+        QueueArray.h
+        StackArray.h
+        PriorityQueue.h
+        Priornode.h)
